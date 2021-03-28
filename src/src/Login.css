@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.cardbox {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.cardbox h1 {
+    margin-bottom: 70px;
+}
+
+.cardbox label {
+    display: flex;
+    justify-content: center;
+}
+
+.cardbox .username {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.cardbox .password {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.cardbox label .inputData {
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.cardbox .btn-login {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    color: white;
+    align-items: center;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.cardbox .btn-cancel {
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 50px;
+}
